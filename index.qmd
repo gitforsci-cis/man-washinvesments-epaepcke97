@@ -1,12 +1,12 @@
 ---
 title: WASH investments
 author:
-  - name: First Second Last
+  - name: Elisa Paepcke
     orcid: 0000-0000-0000-0000
     corresponding: true
-    email: me@me.com
+    email: epaepcke@ethz.ch
     affiliations:
-      - name: My University
+      - name: ETH Zurich
 date: last-modified
 format:
   html:
@@ -24,10 +24,10 @@ bibliography: references.bib
 
 ```{r}
 #| include: false
-# install required R packages
+ #install required R packages
 # install.packages("devtools")
 # devtools::install_github("openwashdata/washinvestments")
-# install.packages(c("ggplot2", "countrycode", "dplyr", "ggthemes))
+# install.packages(c("ggplot2", "countrycode", "dplyr", "ggthemes"))
 ```
 
 # Data import
